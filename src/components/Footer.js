@@ -108,6 +108,11 @@ const Footer = () => {
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-8 pt-6 text-center text-sm text-neutral-light">
           <p>© {currentYear} Himig Solutions. All rights reserved.</p>
+          <div className="mt-2 text-xs opacity-60 hover:opacity-100 transition-opacity">
+            <Link to="/admin/login" className="text-neutral-light hover:text-secondary">
+              Admin
+            </Link>
+          </div>
         </div>
       </div>
     </footer>

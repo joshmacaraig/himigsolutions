@@ -1,0 +1,244 @@
+/* Media Manager Styles */
+.media-manager {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.media-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.media-header h3 {
+  margin: 0;
+  font-size: 1.4rem;
+  color: #0F766E;
+}
+
+.upload-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button.primary {
+  background-color: #0F766E;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.button.primary:hover {
+  background-color: #0a5c54;
+}
+
+.button.primary:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.upload-info {
+  margin-top: 8px;
+  font-size: 0.8rem;
+  color: #6c757d;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #6c757d;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.no-media {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 30px;
+  color: #6c757d;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+.media-item {
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: white;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.media-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.media-preview {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.audio-preview {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f3f5;
+  padding: 0 10px;
+}
+
+.audio-preview audio {
+  width: 100%;
+}
+
+.media-info {
+  padding: 10px;
+}
+
+.media-name {
+  font-weight: 500;
+  margin-bottom: 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.media-actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.button.small {
+  font-size: 0.8rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ced4da;
+  background-color: white;
+  cursor: pointer;
+  flex: 1;
+  transition: background-color 0.2s;
+}
+
+.button.small:hover {
+  background-color: #f8f9fa;
+}
+
+.button.small.danger {
+  color: #dc3545;
+  border-color: #dc3545;
+}
+
+.button.small.danger:hover {
+  background-color: #f8d7da;
+}
+
+/* Section Media Tab Styles */
+.section-media-tab {
+  padding: 20px 0;
+}
+
+.media-tabs {
+  display: flex;
+  border-bottom: 1px solid #dee2e6;
+  margin-bottom: 20px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background: none;
+  border: none;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+  font-weight: 500;
+  color: #495057;
+  transition: all 0.2s;
+}
+
+.tab-button:hover {
+  color: #0F766E;
+}
+
+.tab-button.active {
+  color: #0F766E;
+  border-bottom-color: #0F766E;
+}
+
+.media-preview-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.media-preview-heading {
+  font-weight: 500;
+  margin-bottom: 10px;
+  color: #495057;
+}
+
+.selected-image-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.selected-image {
+  max-width: 100%;
+  max-height: 200px;
+  border-radius: 4px;
+  border: 1px solid #dee2e6;
+}
+
+.selected-music-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.selected-music {
+  width: 100%;
+  max-width: 400px;
+}
+
+.no-selection {
+  padding: 20px;
+  text-align: center;
+  background-color: #e9ecef;
+  color: #6c757d;
+  border-radius: 4px;
+}
+
+.save-invitation-notice {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff3cd;
+  color: #856404;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #ffeeba;
+}

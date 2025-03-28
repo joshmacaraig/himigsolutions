@@ -25,6 +25,7 @@ import AdminDashboard from './pages/admin/Dashboard';
 import AdminInvitations from './pages/admin/Invitations';
 import InvitationForm from './pages/admin/InvitationForm';
 import TestUpload from './pages/admin/TestUpload';
+import MediaManager from './pages/admin/MediaManager';
 
 function App() {
   return (
@@ -52,6 +53,11 @@ function App() {
             <Route path="/admin/invitations/:id/edit" element={
               <ProtectedRoute>
                 <InvitationForm />
+              </ProtectedRoute>
+            } />
+            <Route path="/admin/media" element={
+              <ProtectedRoute>
+                <MediaManager />
               </ProtectedRoute>
             } />
             <Route path="/admin/test-upload" element={<TestUpload />} />

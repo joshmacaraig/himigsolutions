@@ -49,6 +49,11 @@ const AdminDashboard = () => {
             </button>
           </div>
         </div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex space-x-6">
+          <Link to="/admin/dashboard" className="text-white hover:text-gray-200 font-bold">Dashboard</Link>
+          <Link to="/admin/invitations" className="text-white hover:text-gray-200">Invitations</Link>
+          <Link to="/admin/media" className="text-white hover:text-gray-200">Media Manager</Link>
+        </div>
       </header>
 
       {/* Main Content */}
@@ -57,12 +62,20 @@ const AdminDashboard = () => {
           <h2 className="text-2xl font-serif font-bold text-neutral-dark">
             Invitations Dashboard
           </h2>
-          <Link
-            to="/admin/invitations/new"
-            className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark"
-          >
-            Create New Invitation
-          </Link>
+          <div className="flex space-x-4">
+            <Link
+              to="/admin/media"
+              className="px-4 py-2 bg-secondary text-white rounded-md hover:bg-secondary-dark"
+            >
+              Manage Media
+            </Link>
+            <Link
+              to="/admin/invitations/new"
+              className="px-4 py-2 bg-primary text-white rounded-md hover:bg-primary-dark"
+            >
+              Create New Invitation
+            </Link>
+          </div>
         </div>
 
         {/* Error alert */}

@@ -1,0 +1,11 @@
+id,invitation_id,guest_type_id,guest_name,guest_email,access_code,custom_message,custom_privileges,is_attending,created_at,updated_at
+1,1,1,"James Wilson","james.wilson@example.com","BM-123-456","James, we're honored to have you as the Best Man. Please find your custom access to our wedding details.","{""access_special_photos"":true,""access_rehearsal_info"":true}",null,"2025-03-25 10:00:00","2025-03-25 10:00:00"
+2,1,2,"Sarah Johnson","sarah.j@example.com","MOH-789-012","Sarah, we're so happy to have you as the Maid of Honor. Here's your special access to our wedding details.","{""access_special_photos"":true,""access_rehearsal_info"":true}",true,"2025-03-26 10:30:00","2025-03-26 10:30:00"
+3,1,3,"Michael Lee","mlee@example.com","GM-234-567","Michael, thank you for being a Groomsman in our wedding.","{""access_rehearsal_info"":true}",false,"2025-03-26 14:22:00","2025-03-26 14:22:00"
+4,1,4,"Jessica Kim","jkim@example.com","BM-345-678","Jessica, we're excited to have you as a Bridesmaid!","{""access_rehearsal_info"":true}",null,"2025-03-25 10:00:00","2025-03-25 10:00:00"
+5,1,5,"Tommy Chen","tchen@example.com","RB-456-789","Tommy, we're thrilled to have you as our Ring Bearer!","{""special_instructions"":""Remember to walk slowly down the aisle with the pillow.""}",null,"2025-03-25 10:00:00","2025-03-25 10:00:00"
+6,1,11,"Robert Garcia","rgarcia@example.com","USH-567-890","Robert, thank you for being an Usher at our wedding.","{""seating_chart_access"":true}",null,"2025-03-25 10:00:00","2025-03-25 10:00:00"
+7,1,16,"John Smith","john.smith@example.com","FR-678-901","","{}",true,"2025-03-26 09:15:00","2025-03-26 09:15:00"
+8,2,14,"Robert & Cindy Chen","chen.family@example.com","GOH-789-012","Robert & Cindy, as our closest friends who were there when we first met, you're our special guests of honor.","{""access_special_photos"":true}",true,"2025-03-26 11:45:00","2025-03-26 11:45:00"
+9,3,13,"Alex Wong","alex.w@example.com","GP-890-123","Alex, we'd be honored to have you as a Godparent to our child.","{""early_registry_access"":true}",true,"2025-03-26 16:05:00","2025-03-26 16:05:00"
+10,3,15,"Maria Thompson","maria.t@example.com","FM-901-234","Maria, we're excited to share this special time with you as we prepare to welcome our little one.","{""family_photos_access"":true}",null,"2025-03-25 12:00:00","2025-03-25 12:00:00"

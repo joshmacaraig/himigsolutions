@@ -1,0 +1,41 @@
+id,section_id,content_mode,structured_content,html_content,css_content,js_content,created_at,updated_at
+1,1,"structured","{""title"":""Elena & David"",""date"":""August 15, 2025"",""location"":""Manila, Philippines""}","","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+2,2,"structured","{""image"":""/img/wedding-couple.jpg"",""paragraphs"":[""Elena and David met during a photography workshop in 2020. They were paired together for a project and quickly discovered they had a lot in common."",""After two years of dating, David proposed during a trip to Palawan, where they had their first vacation together. He surprised Elena with a sunset dinner on the beach and asked her to spend the rest of her life with him."",""Now, they're excited to begin this new chapter and can't wait to celebrate their love with family and friends.""]}","","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+3,3,"structured","{""ceremonies"":[{""title"":""Wedding Ceremony"",""time"":""3:00 PM - 4:00 PM"",""location"":""St. Benedict Church, Manila"",""description"":""Please arrive 30 minutes early. The ceremony will start promptly at 3:00 PM.""},{""title"":""Reception"",""time"":""5:00 PM - 10:00 PM"",""location"":""Grand Hyatt Manila, BGC"",""description"":""Cocktail hour begins at 5:00 PM, followed by dinner and dancing.""}]}","","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+4,4,"structured","{""events"":[{""title"":""Guests Arrive"",""time"":""2:30 PM"",""description"":""Welcome to St. Benedict Church""},{""title"":""Ceremony"",""time"":""3:00 PM"",""description"":""The wedding ceremony begins""},{""title"":""Photo Session"",""time"":""4:15 PM"",""description"":""Family and group photos""},{""title"":""Cocktail Hour"",""time"":""5:00 PM"",""description"":""Cocktails and hors d'oeuvres at Grand Hyatt""},{""title"":""Dinner & Reception"",""time"":""6:30 PM"",""description"":""Dinner service followed by speeches""},{""title"":""First Dance"",""time"":""8:00 PM"",""description"":""The couple's first dance as newlyweds""}]}","","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+5,5,"structured","{""images"":[""/img/wedding-gallery-1.jpg"",""/img/wedding-gallery-2.jpg"",""/img/wedding-gallery-3.jpg"",""/img/wedding-gallery-4.jpg"",""/img/wedding-gallery-5.jpg"",""/img/wedding-gallery-6.jpg""]}","","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+6,6,"structured","{""deadline"":""July 15, 2025"",""meal_options"":[""Chicken"",""Fish"",""Vegetarian""],""custom_questions"":[""Do you have any dietary restrictions?"",""Will you need transportation from the ceremony to reception?""]}","","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+7,7,"structured","{""title"":""Michael & Jennifer's 25th Anniversary"",""date"":""June 12, 2025"",""location"":""The Peninsula Manila, Makati City""}","","","","2025-03-25 11:00:00","2025-03-25 11:00:00"
+8,14,"html","","""<div class='baby-parents'>
+  <h2>Meet the Parents-to-Be</h2>
+  <div class='parent-info'>
+    <img src='/img/emma.jpg' alt='Emma' />
+    <h3>Emma Thompson</h3>
+    <p>Emma is a pediatric nurse who loves children and can't wait to welcome her first baby!</p>
+  </div>
+  <div class='parent-info'>
+    <img src='/img/james.jpg' alt='James' />
+    <h3>James Thompson</h3>
+    <p>James is a software engineer and future dad who's already built a crib from scratch!</p>
+  </div>
+</div>""",""".baby-parents {
+  background-color: #f8f4ff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.parent-info {
+  margin-bottom: 1.5rem;
+}
+.parent-info img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}""","","2025-03-25 12:00:00","2025-03-25 12:00:00"
+9,16,"mixed","{""registry_links"":[{""name"":""Amazon Baby Registry"",""url"":""https://amazon.com/registry""},{""name"":""Target Baby Registry"",""url"":""https://target.com/registry""}]}","""<div class='custom-registry-intro'>
+  <h3>Help Us Prepare for Baby Thompson</h3>
+  <p>Your presence is the greatest gift, but if you'd like to help us prepare for baby's arrival, we've registered at the following stores:</p>
+</div>""",""".custom-registry-intro {
+  font-style: italic;
+  color: #6a5acd;
+}""","","2025-03-25 12:00:00","2025-03-25 12:00:00"

@@ -1,0 +1,29 @@
+id,name,description,icon,is_active,default_order,category
+1,html,Custom HTML content section,code,true,100,custom
+2,header,Introduction or welcome section with names and date,heading,true,10,layout
+3,story,Section for telling the couple's story or event history,book-open,true,20,content
+4,gallery,Photo gallery display,image,true,30,media
+5,schedule,Event timeline with dates and activities,calendar,true,40,logistics
+6,map,Location map with directions,map-pin,true,50,logistics
+7,rsvp,RSVP form for guests to respond,mail,true,60,interactive
+8,countdown,Countdown timer to the event,clock,true,15,interactive
+9,guestbook,Section for guests to leave messages,message-square,true,80,interactive
+10,registry,Gift registry information,gift,true,70,logistics
+11,accommodation,Hotel and lodging information,home,true,55,logistics
+12,travel,Travel and transportation details,plane,true,53,logistics
+13,faq,Frequently asked questions,help-circle,true,90,content
+14,contact,Contact information for questions,phone,true,95,content
+15,livestream,Virtual attendance information,video,true,52,media
+16,music,Background music control/playlist,music,true,25,media
+17,video,Video content section,film,true,35,media
+18,quotes,Inspirational quotes or messages,quote,true,65,content
+19,sponsors,For listing event sponsors,award,true,75,content
+20,speakers,For listing speakers or presenters,users,true,73,content
+21,menu,Food and beverage information,coffee,true,45,logistics
+22,dresscode,Attire guidelines,scissors,true,58,logistics
+23,weather,Local weather information,cloud,true,57,logistics
+24,social,Social media feeds or sharing options,share-2,true,85,interactive
+25,activities,Recommended activities for guests,smile,true,56,content
+26,itinerary,Detailed event itinerary,list,true,42,logistics
+27,seating,Seating information or interactive chart,layout,true,48,logistics
+28,thankyou,Thank you message section,heart,true,110,content

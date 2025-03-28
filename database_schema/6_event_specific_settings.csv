@@ -1,0 +1,4 @@
+id,invitation_id,rsvp_deadline,max_guests_per_rsvp,allow_plus_ones,collect_meal_preferences,collect_dietary_restrictions,custom_questions,created_at,updated_at
+1,1,"2025-07-15",5,true,true,true,"[""Do you have any dietary restrictions?"",""Will you need transportation from the ceremony to reception?"",""Any songs you'd like to request for the reception?""]","2025-03-25 10:00:00","2025-03-25 10:00:00"
+2,2,"2025-05-20",4,true,true,false,"[""Would you like to share a memory for our anniversary book?"",""Do you have any photos from our wedding you could share?""]","2025-03-25 11:00:00","2025-03-25 11:00:00"
+3,3,"2025-05-01",3,false,false,true,"[""Do you have any advice for the new parents?"",""Would you like to contribute to our group gift?""]","2025-03-25 12:00:00","2025-03-25 12:00:00"

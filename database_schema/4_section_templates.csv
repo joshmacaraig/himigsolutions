@@ -1,0 +1,26 @@
+id,name,section_type,default_content,default_html,default_css,created_at,updated_at
+1,"Classic Wedding Header","header","{""title"":"""",""date"":"""",""location"":""""}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+2,"Modern Couple Story","coupleStory","{""image"":"""",""paragraphs"":[""How we met"",""Our journey"",""Our future""]}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+3,"Elegant Event Details","eventDetails","{""ceremonies"":[{""title"":""Ceremony"",""time"":"""",""location"":"""",""description"":""""},{""title"":""Reception"",""time"":"""",""location"":"""",""description"":""""}]}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+4,"Standard Timeline","timeline","{""events"":[{""title"":""Event 1"",""time"":"""",""description"":""""},{""title"":""Event 2"",""time"":"""",""description"":""""},{""title"":""Event 3"",""time"":"""",""description"":""""}]}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+5,"Basic Gallery","photoGallery","{""images"":[]}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+6,"Standard RSVP Form","rsvp","{""deadline"":"""",""meal_options"":[],""custom_questions"":[]}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"
+7,"Baby Announcement","custom","","""<div class='baby-announcement'>
+  <h2>We're Expecting!</h2>
+  <p class='due-date'>Baby [LastName] arriving [Month] [Year]</p>
+  <p class='parents'>Parents-to-be: [ParentName1] & [ParentName2]</p>
+</div>""",""".baby-announcement {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f8f6ff;
+  border-radius: 8px;
+}
+.due-date {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+.parents {
+  font-style: italic;
+}""","2025-03-25 10:00:00","2025-03-25 10:00:00"
+8,"Anniversary Timeline","timeline","{""events"":[{""title"":""We Met"",""time"":"""",""description"":""""},{""title"":""We Married"",""time"":"""",""description"":""""},{""title"":""First Home"",""time"":"""",""description"":""""},{""title"":""First Child"",""time"":"""",""description"":""""},{""title"":""25 Years Together"",""time"":"""",""description"":""""}]}","","","2025-03-25 10:00:00","2025-03-25 10:00:00"

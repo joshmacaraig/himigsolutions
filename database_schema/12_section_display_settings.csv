@@ -1,0 +1,9 @@
+id,section_id,background_type,background_value,padding_top,padding_bottom,padding_left,padding_right,margin_top,margin_bottom,border_settings,visibility_desktop,visibility_tablet,visibility_mobile,custom_classes,animation_type,created_at,updated_at
+1,1,"color","#F0F4F8",80,80,30,30,0,0,"{""style"":""none"",""width"":0,""color"":""#000000""}",true,true,true,"header-section","fade-in","2025-03-25 10:00:00","2025-03-25 10:00:00"
+2,2,"image","/img/story-bg.jpg",100,100,40,40,50,50,"{""style"":""none"",""width"":0,""color"":""#000000""}",true,true,true,"story-section","slide-in-left","2025-03-25 10:00:00","2025-03-25 10:00:00"
+3,3,"gradient","linear-gradient(135deg, #F5F7FA 0%, #E4EDF5 100%)",80,80,30,30,50,50,"{""style"":""solid"",""width"":1,""color"":""#E1E1E1""}",true,true,true,"event-details-section","slide-in-right","2025-03-25 10:00:00","2025-03-25 10:00:00"
+4,4,"color","#FFFFFF",80,80,30,30,50,50,"{""style"":""none"",""width"":0,""color"":""#000000""}",true,true,true,"timeline-section","fade-in","2025-03-25 10:00:00","2025-03-25 10:00:00"
+5,5,"color","#F7F7F7",100,100,30,30,50,50,"{""style"":""none"",""width"":0,""color"":""#000000""}",true,true,true,"gallery-section","fade-in","2025-03-25 10:00:00","2025-03-25 10:00:00"
+6,6,"color","#F0F4F8",80,100,30,30,50,0,"{""style"":""dashed"",""width"":1,""color"":""#D0D0D0""}",true,true,true,"rsvp-section","slide-in-up","2025-03-25 10:00:00","2025-03-25 10:00:00"
+7,7,"color","#FFF5F5",80,80,30,30,0,0,"{""style"":""none"",""width"":0,""color"":""#000000""}",true,true,true,"anniversary-header","fade-in","2025-03-25 11:00:00","2025-03-25 11:00:00"
+8,14,"pattern","baby-pattern.png",100,100,40,40,50,50,"{""style"":""solid"",""width"":2,""color"":""#F8C8DC"",""radius"":""10px""}",true,true,true,"parents-section","bounce-in","2025-03-25 12:00:00","2025-03-25 12:00:00"

@@ -1,0 +1,4 @@
+id,title,slug,type,design,date,location,musicPath,coupleImage,status,user_id,created_at,updated_at
+1,"Elena & David","elena_and_david","wedding","classic","August 15, 2025","Manila, Philippines","/music/classical-wedding.mp3","/img/wedding-couple.jpg","published",1,"2025-03-25 10:00:00","2025-03-25 10:00:00"
+2,"Michael & Jennifer's 25th Anniversary","michael_and_jennifer","anniversary","elegant","June 12, 2025","The Peninsula Manila, Makati City","/music/anniversary-waltz.mp3","/img/anniversary-couple.jpg","published",1,"2025-03-25 11:00:00","2025-03-25 11:00:00"
+3,"Baby Thompson is on the way!","emma_and_james","babyShower","playful","May 20, 2025","Shangri-La at the Fort, Manila","/music/gentle-lullaby.mp3","/img/baby-parents.jpg","published",1,"2025-03-25 12:00:00","2025-03-25 12:00:00"

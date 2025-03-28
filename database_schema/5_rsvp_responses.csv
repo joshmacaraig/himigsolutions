@@ -1,0 +1,6 @@
+id,invitation_id,guest_name,guest_email,attending,number_of_guests,additional_info,created_at,updated_at
+1,1,"John Smith","john.smith@example.com",true,2,"{""meal_preference"":""Chicken"",""dietary_restrictions"":""None"",""transportation_needed"":true}","2025-03-26 09:15:00","2025-03-26 09:15:00"
+2,1,"Sarah Johnson","sarah.j@example.com",true,1,"{""meal_preference"":""Vegetarian"",""dietary_restrictions"":""Gluten-free"",""transportation_needed"":false}","2025-03-26 10:30:00","2025-03-26 10:30:00"
+3,1,"Michael Lee","mlee@example.com",false,0,"{""reason"":""Out of town""}","2025-03-26 14:22:00","2025-03-26 14:22:00"
+4,2,"Robert & Cindy Chen","chen.family@example.com",true,3,"{""note"":""Looking forward to celebrating with you!""}","2025-03-26 11:45:00","2025-03-26 11:45:00"
+5,3,"Alex Wong","alex.w@example.com",true,2,"{""gift_idea"":""Already purchased from registry""}","2025-03-26 16:05:00","2025-03-26 16:05:00"

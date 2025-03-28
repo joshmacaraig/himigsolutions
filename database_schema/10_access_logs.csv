@@ -1,0 +1,6 @@
+id,invitation_id,ip_address,user_agent,referrer,timestamp
+1,1,"192.168.1.101","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","https://www.google.com/","2025-03-26 10:15:30"
+2,1,"203.0.113.45","Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1","https://www.facebook.com/","2025-03-26 11:22:45"
+3,1,"198.51.100.73","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","direct","2025-03-26 12:45:10"
+4,2,"192.0.2.15","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36","https://mail.google.com/","2025-03-26 14:30:20"
+5,3,"203.0.113.121","Mozilla/5.0 (iPad; CPU OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Mobile/15E148 Safari/604.1","https://www.instagram.com/","2025-03-26 15:10:05"

@@ -186,7 +186,7 @@ const MediaManager = ({ invitationId, sectionId, mediaType, onMediaSelect }) => 
                     {file.name.length > 18 ? file.name.substring(0, 15) + '...' : file.name}
                   </div>
                   <div className="media-actions">
-                    <button 
+                    <button  
                       className="button small" 
                       onClick={() => handleMediaSelect(file)}
                     >
